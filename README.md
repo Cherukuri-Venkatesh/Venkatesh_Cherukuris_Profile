@@ -1,8 +1,7 @@
-# Venkatesh_Cherukuris_Profile
+
 <!--
 SPDX-License-Identifier: Apache-2.0
 -->
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=280&section=header&text=SAI%20VENKATESH%20CHERUKURI&fontSize=52&animation=fadeIn&fontAlignY=38&theme=transparent" width="100%" alt="Header Banner" />
 </p>
