@@ -1,19 +1,17 @@
-
 <!--
 SPDX-License-Identifier: Apache-2.0
 -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=280&section=header&text=SAI%20VENKATESH%20CHERUKURI&fontSize=52&animation=fadeIn&fontAlignY=38&theme=transparent" width="100%" alt="Header Banner" />
-</p>
 
-<p align="center">
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=280&section=header&text=SAI%20VENKATESH%20CHERUKURI&fontSize=52&animation=fadeIn&fontAlignY=38&theme=transparent" alt="Header Banner" />
+  <br />
+  <br />
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&pause=1000&color=F8F9FA&center=true&vCenter=true&width=500&height=50&lines=Analytics%20Engineer%20%7C%20Data%20Scientist;Master%20of%20Science%20in%20Business%20Analytics;Crafting%20Cognitive%20AI%20Agents;Architecting%20Scalable%20Data%20Systems" alt="Typing SVG" /></a>
-</p>
-
-<p align="center">
+  <br />
+  <br />
   <img src="https://img.shields.io/badge/Location-Ongole%2C%20India%20%7C%20Indiana%2C%20USA-0A84FF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
   
-</p>
+</div>
 
 
 ---
@@ -46,46 +44,6 @@ SPDX-License-Identifier: Apache-2.0
     </td>
   </tr>
 </table>
-
----
-
-### 🛡️ System Architecture & Data Flow
-
-```
-                      +---------------------------------------+
-                      |       Raw Multi-Modal Data Sources    |
-                      +-------------------+-------------------+
-                                          |
-                                          v  [Stream Ingestion]
-                      +-------------------+-------------------+
-                      |      Apache Kafka Event Streaming     |
-                      +-------------------+-------------------+
-                                          |
-                                          v  [Stateful Windowing]
-                      +-------------------+-------------------+
-                      |     Apache Spark Distributed Compute  |
-                      +-------------------+-------------------+
-                                          |
-                     +--------------------+--------------------+
-                     |                                         |
-                     v                                         v
-       +-------------+-------------+             +-------------+-------------+
-       |   Snowflake/PostgreSQL    |             |    Pinecone/Qdrant        |
-       |     Structured Stores     |             |      Vector Stores        |
-       +-------------+-------------+             +-------------+-------------+
-                     |                                         |
-                     +--------------------+--------------------+
-                                          |
-                                          v  [Generative AI Synthesis]
-                      +-------------------+-------------------+
-                      |   Cognitive Agents (Gemini API / RAG) |
-                      +-------------------+-------------------+
-                                          |
-                                          v  [Visual Analytics]
-                      +-------------------+-------------------+
-                      |  High-Fidelity React UI & Dashboards  |
-                      +---------------------------------------+
-```
 
 ---
 
