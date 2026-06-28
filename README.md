@@ -141,7 +141,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ---
 
-### 📂 Featured Innovations & Architecture
+### 📂 Featured Innovations
 
 <table align="center" width="100%">
   <tr>
