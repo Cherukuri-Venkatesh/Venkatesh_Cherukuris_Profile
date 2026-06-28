@@ -335,6 +335,88 @@ SPDX-License-Identifier: Apache-2.0
 </div>
 
 
+<br />
+
+<details>
+<summary><b>🛠️ How to fix the missing images / question marks (GitHub Actions Setup)</b></summary>
+<br />
+
+Some features in this README (such as the **Snake Game**, **Pacman Arcade**, and **Mauro de Souza Stats Graphs**) rely on SVG files that are compiled automatically from your live contribution data.
+
+If you are seeing question marks or broken image placeholders, follow these simple steps to enable them:
+
+### 1. Create a GitHub Actions Workflow
+In your GitHub repository, create a new file at this exact path:
+`.github/workflows/profile-readme-assets.yml`
+
+### 2. Copy & Paste this Workflow Configuration
+Paste the following YAML code into the file and commit it to your `main` branch:
+
+```yaml
+name: Generate Profile README Assets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Runs every 12 hours
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # 1. Generate Snake Game
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake-output/snake.svg
+            snake-output/snake-dark.svg?palette=github-dark
+
+      # 2. Generate Pacman Arcade
+      - name: Generate Pacman SVG
+        uses: guiferviz/run-pacman-game@v2
+        with:
+          username: ${{ github.repository_owner }}
+
+      # 3. Generate Stats SVGs (for Mauro Premium style)
+      - name: Generate Mauro de Souza Stats
+        uses: maurodesouza/profile-readme-generator@v1.2.2
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      # 4. Commit and Push Generated Assets
+      - name: Commit and Push Assets
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: main
+```
+
+### 3. Run the Workflow
+1. Go to the **Actions** tab of your repository.
+2. Select **Generate Profile README Assets** in the left sidebar.
+3. Click **Run workflow** -> **Run workflow**.
+
+Once completed, the files will be committed and all question marks on your profile will turn into stunning interactive animations!
+
+---
+
+💡 **Alternative (No Setup Required):**
+If you prefer not to set up GitHub Actions, simply open the generator app, and in the editor sidebar:
+- Change **Professional Status Style** from *"Dracula Side-by-Side Graph Grid"* to **"Standard (No Action Required)"**
+- Uncheck **GitHub Contribution Snake Game**
+- Uncheck **Pacman Contribution Graph**
+
+These settings use dynamic, real-time widgets that load instantly without any workflow files!
+</details>
+
+<br />
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer&theme=transparent" width="100%" alt="Footer Wave" />
 </p>
