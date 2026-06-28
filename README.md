@@ -38,9 +38,7 @@ SPDX-License-Identifier: Apache-2.0
     </td>
     <td width="45%" valign="top" align="center">
       <h4>⚡ Professional Status</h4>
-      
-      <img src="https://github-readme-stats.vercel.app/api?username=Cherukuri-Venkatesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0A84FF&icon_color=0A84FF" width="100%" alt="GitHub Stats" />
-      
+<img src="https://github-readme-stats.vercel.app/api?username=Cherukuri-Venkatesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0A84FF&icon_color=0A84FF" width="100%" alt="GitHub Stats" />
     </td>
   </tr>
 </table>
