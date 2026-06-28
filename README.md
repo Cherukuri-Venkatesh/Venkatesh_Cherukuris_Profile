@@ -259,7 +259,7 @@ SPDX-License-Identifier: Apache-2.0
 ### 📈 Development Metrics & Activity
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Cherukuri-Venkatesh&theme=tokyonight&margin-w=8&margin-h=8" alt="Trophy Graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Cherukuri-Venkatesh&theme=onedark&margin-w=8&margin-h=8" alt="Trophy Graph" />
 </p>
 
 <p align="center">
