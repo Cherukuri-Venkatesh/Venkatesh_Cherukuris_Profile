@@ -3,7 +3,7 @@ SPDX-License-Identifier: Apache-2.0
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=280&section=header&text=SAI%20VENKATESH%20CHERUKURI&fontSize=52&animation=fadeIn&fontAlignY=38&theme=transparent" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&color=0A84FF&height=200&section=header&text=SAI%20VENKATESH%20CHERUKURI&fontSize=44&animation=fadeIn&fontAlignY=38&theme=transparent" alt="Header Banner" />
   <br />
   <br />
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&pause=1000&color=F8F9FA&center=true&vCenter=true&width=500&height=50&lines=Analytics%20Engineer%20%7C%20Data%20Scientist;Master%20of%20Science%20in%20Business%20Analytics;Crafting%20Cognitive%20AI%20Agents;Architecting%20Scalable%20Data%20Systems" alt="Typing SVG" /></a>
@@ -38,7 +38,8 @@ SPDX-License-Identifier: Apache-2.0
     </td>
     <td width="45%" valign="top" align="center">
       <h4>⚡ Professional Status</h4>
-<img src="https://github-readme-stats.vercel.app/api?username=Cherukuri-Venkatesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0A84FF&icon_color=0A84FF" width="100%" alt="GitHub Stats" />
+      
+      <img src="https://github-readme-stats.vercel.app/api?username=Cherukuri-Venkatesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0A84FF&icon_color=0A84FF" width="100%" alt="GitHub Stats" />
     </td>
   </tr>
 </table>
